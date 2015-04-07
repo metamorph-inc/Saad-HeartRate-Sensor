@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="1c875518-5f31-4c3d-a2f4-9ce1a279b04d" Name="C_TANT_1210_220u_6.3V_20%_AVX" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-5df586e0-2b48-4e4f-a0c4-47d07891a631" Author="" Notes="" XPosition="270" YPosition="200" Package="AVX-B" Device="" Library="juneSpreadsheetParts" DeviceSet="C_TANT_1210" xmlns="">
+    <Pin ID="id-e8ef7f1f-79a3-497e-ac43-fd3befd7b14b" PortMap="" Notes="" XPosition="28" Definition="" YPosition="98" Name="POS" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="0" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Pin ID="id-c3247740-58b3-48ad-b20f-e03b38738b5b" PortMap="id-41164639-07a4-4d91-a67d-7c9d75fa2d39" Notes="" XPosition="203" Definition="" YPosition="98" Name="NEG" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="-7.62" EDASymbolRotation="R90" SPICEPortNumber="0" />
+  </DomainModel>
+  <DomainModel xmlns:q2="spice" xsi:type="q2:SPICEModel" UsesResource="id-4ed5397b-fdf6-43eb-86fa-b280a567a048" Author="" Notes="Created using SPICE Model CAT Module" XPosition="350" YPosition="540" Class="X:TLJT227K006R2000" xmlns="">
+    <Pin ID="id-6e7fb2e2-9bdc-4d6a-bc90-8d87eb8fa157" PortMap="id-1564fca8-119f-4a41-aded-9f90d90ad725" Notes="" XPosition="50" Definition="" YPosition="150" Name="POS" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Pin ID="id-b0392853-6129-4232-a13e-c3420633ba57" PortMap="" Notes="" XPosition="50" Definition="" YPosition="50" Name="NEG" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="1" />
+  </DomainModel>
+  <Property xmlns:q3="avm" xsi:type="q3:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-1b7f261c-0e85-4e07-bcbe-32f4088689b5" XPosition="427" YPosition="35" xmlns="">
+    <Value ID="id-1b7f261c-0e85-4e07-bcbe-32f4088689b5" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q3:FixedValue">
+        <Value>TLJT227M006R2000</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="SPICEModelFile" Path="Spice\TLJT227K006R2000.cir" Hash="" ID="id-4ed5397b-fdf6-43eb-86fa-b280a567a048" Notes="" XPosition="550" YPosition="440" xmlns="" />
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-5df586e0-2b48-4e4f-a0c4-47d07891a631" Notes="Standalone EAGLE library for this device" XPosition="650" YPosition="200" xmlns="" />
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-fe6dfb8f-be24-4489-83eb-89e1d97272cc" Notes="Custom icon for this component" XPosition="112" YPosition="63" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-ea339804-4fc2-40f0-84e4-05a46ee16db0" ApplyJoinData="" XPosition="28" YPosition="294" Notes="" Definition="" Name="POS" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-1564fca8-119f-4a41-aded-9f90d90ad725" PortMap="id-e8ef7f1f-79a3-497e-ac43-fd3befd7b14b" Notes="" XPosition="350" Definition="" YPosition="203" Name="Sch" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-9f05f41f-cf31-45eb-a485-3ed3cf42e356" ApplyJoinData="" XPosition="490" YPosition="294" Notes="" Definition="" Name="NEG" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-41164639-07a4-4d91-a67d-7c9d75fa2d39" PortMap="id-b0392853-6129-4232-a13e-c3420633ba57" Notes="" XPosition="77" Definition="" YPosition="63" Name="Sch" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">passive_components.capacitors.single_components</Classifications>
+</Component>

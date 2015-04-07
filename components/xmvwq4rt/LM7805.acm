@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="75d08bd6-405c-4bd8-a664-dd627d272401" Name="LM7805" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-c227de7a-1e3d-4149-9709-8d4ab598d9ee" Author="" Notes="" XPosition="270" YPosition="200" Name="EDAModel" Package="78MXXS" Device="" Library="v-reg" DeviceSet="78MXXS" xmlns="">
+    <Pin ID="id-7a958b9b-28d2-4b90-8ea3-13d195d92939" PortMap="id-44be49fd-2b9a-4b98-ad5a-0c7c9958bc24 id-86df7575-7b55-469f-935e-55ef3bc9391e id-6279a553-f11f-426a-987b-97a05d565c85" Notes="" XPosition="25" Definition="" YPosition="25" Name="GND" EDAGate="A" EDASymbolLocationX="0" EDASymbolLocationY="-7.62" EDASymbolRotation="R90" SPICEPortNumber="0" />
+    <Pin ID="id-55a7ecc8-1b6a-46c0-aac3-5b8438f8cede" PortMap="id-3c0bf958-3c55-4d67-958e-d3f980195ca1" Notes="" XPosition="125" Definition="" YPosition="25" Name="IN" EDAGate="A" EDASymbolLocationX="-7.62" EDASymbolLocationY="0" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-72f07211-185b-4ba8-9583-d61c5c181e49" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="OUT" EDAGate="A" EDASymbolLocationX="7.62" EDASymbolLocationY="0" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Parameter XPosition="325" YPosition="25" Locator="value">
+      <Value ID="id-58c9fba4-324a-4e12-8175-47af48de7931">
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:DerivedValue" ValueSource="id-8cc3b1f4-f25e-46f1-9d04-f177fa7888cb" />
+      </Value>
+    </Parameter>
+  </DomainModel>
+  <Property xmlns:q3="avm" xsi:type="q3:PrimitiveProperty" Name="value" OnDataSheet="false" ID="property.id-8cc3b1f4-f25e-46f1-9d04-f177fa7888cb" XPosition="14" YPosition="175" xmlns="">
+    <Value ID="id-8cc3b1f4-f25e-46f1-9d04-f177fa7888cb" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q3:FixedValue">
+        <Value />
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q4="avm" xsi:type="q4:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-3085f3d4-9200-4e70-b480-c46d13fc51d0" XPosition="336" YPosition="28" xmlns="">
+    <Value ID="id-3085f3d4-9200-4e70-b480-c46d13fc51d0" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q4:FixedValue">
+        <Value>LM7805CT</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-c227de7a-1e3d-4149-9709-8d4ab598d9ee" Notes="Standalone EAGLE library for this device" XPosition="315" YPosition="98" xmlns="" />
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-74413123-ee83-4779-bb49-fe350afe2687" Notes="Custom icon for this component" xmlns="" />
+  <ResourceDependency Name="LM7805_datasheet.pdf" Path="doc\LM7805_datasheet.pdf" Hash="" ID="id-89a1fb84-ca27-4b2d-b20e-918ecb3c513d" Notes="" XPosition="196" YPosition="7" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-3af8619d-c979-4ed0-b181-08717be415b4" ApplyJoinData="" XPosition="427" YPosition="343" Notes="" Definition="AnalogSignal" Name="OUT" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-86df7575-7b55-469f-935e-55ef3bc9391e" PortMap="" Notes="" XPosition="42" Definition="" YPosition="119" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q6="schematic" xsi:type="q6:Pin" ID="id-e8ab3c5f-9c68-43ef-a17d-457a6f0d4f67" PortMap="id-72f07211-185b-4ba8-9583-d61c5c181e49" Notes="" XPosition="42" Definition="" YPosition="42" Name="S" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-3850765d-b768-448d-b799-03b95ea68afc" ApplyJoinData="" XPosition="63" YPosition="336" Notes="" Definition="AnalogSignal" Name="IN" xmlns="">
+    <Role xmlns:q7="schematic" xsi:type="q7:Pin" ID="id-3c0bf958-3c55-4d67-958e-d3f980195ca1" PortMap="" Notes="" XPosition="42" Definition="" YPosition="42" Name="S" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q8="schematic" xsi:type="q8:Pin" ID="id-6279a553-f11f-426a-987b-97a05d565c85" PortMap="" Notes="" XPosition="42" Definition="" YPosition="119" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-8033b1a1-7fbd-444f-b8e7-85fb24628542" ApplyJoinData="" XPosition="196" YPosition="427" Notes="" Definition="GND" Name="GND" xmlns="">
+    <Role xmlns:q9="schematic" xsi:type="q9:Pin" ID="id-44be49fd-2b9a-4b98-ad5a-0c7c9958bc24" PortMap="" Notes="" XPosition="70" Definition="" YPosition="35" Name="Sch" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">semiconductors_and_actives.power_management.voltage_regulators</Classifications>
+</Component>

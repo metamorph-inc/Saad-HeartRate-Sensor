@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="7eec8e4b-5349-4e9a-b1e1-76048496f5c0" Name="D_1N4448HLP" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-b17fb553-b89f-4675-93b1-d8da3889f45a" Author="" Notes="" XPosition="210" YPosition="119" Name="EDAModel" Package="2-XFDFN" Device="" Library="juneSpreadsheetParts" DeviceSet="D_1N4448HLP-7" xmlns="">
+    <Pin ID="id-74b0e83c-a857-41b4-8964-928c77ca5ef7" PortMap="" Notes="" XPosition="25" Definition="" YPosition="25" Name="A" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="2.54" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Pin ID="id-3c1c4450-e2a9-41ae-9ab7-291a876ce284" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="C" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="-5.08" EDASymbolRotation="R90" SPICEPortNumber="0" />
+  </DomainModel>
+  <DomainModel xmlns:q2="spice" xsi:type="q2:SPICEModel" UsesResource="id-6dd4bbf4-e2e6-461f-80da-273ffc2e8bf1" Author="" Notes="Created using SPICE Model CAT Module" XPosition="287" YPosition="406" Name="SPICEModel" Class="D:DI_1N4448HLP" xmlns="">
+    <Pin ID="id-2f32925a-6731-4bce-8b67-46119509af75" PortMap="id-3b37a58f-85c2-4b8d-8d11-7649319e2bac" Notes="" XPosition="50" Definition="" YPosition="50" Name="ANODE" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Pin ID="id-f732f49c-6a7a-4a7e-90cf-a03c2c122f5a" PortMap="id-cab49ee9-65fb-4a1b-a9b6-e81e4d177876" Notes="" XPosition="50" Definition="" YPosition="150" Name="CATHODE" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="1" />
+  </DomainModel>
+  <Property xmlns:q3="avm" xsi:type="q3:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-64eb6dd9-5d1f-40be-9a2d-29afae615ea4" XPosition="343" YPosition="21" xmlns="">
+    <Value ID="id-64eb6dd9-5d1f-40be-9a2d-29afae615ea4" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q3:FixedValue">
+        <Value>1N4448HLP-7</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-b17fb553-b89f-4675-93b1-d8da3889f45a" Notes="Standalone EAGLE library for this device" XPosition="399" YPosition="91" xmlns="" />
+  <ResourceDependency Name="SPICEModelFile" Path="Spice\1N4448HLP.cir" Hash="" ID="id-6dd4bbf4-e2e6-461f-80da-273ffc2e8bf1" Notes="Derived from 'C:\aDiodeCirFile\1N4448HLP.cir'.&#xA;" XPosition="441" YPosition="329" xmlns="" />
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-6cbd4840-69b1-4c8f-8624-44010e14c79b" Notes="Custom icon for this component" XPosition="49" YPosition="28" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-433095c5-26ca-4a1b-aa45-fb5861d2646f" ApplyJoinData="" Notes="" Name="ANODE" Definition="" YPosition="217" XPosition="70" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-3b37a58f-85c2-4b8d-8d11-7649319e2bac" PortMap="id-74b0e83c-a857-41b4-8964-928c77ca5ef7" Notes="" XPosition="231" Definition="" YPosition="196" Name="Sch" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-5d5b1c00-3933-43f8-bc5f-8269e4c2635a" ApplyJoinData="" Notes="" Name="CATHODE" Definition="" YPosition="217" XPosition="420" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-cab49ee9-65fb-4a1b-a9b6-e81e4d177876" PortMap="id-3c1c4450-e2a9-41ae-9ab7-291a876ce284" Notes="" XPosition="56" Definition="" YPosition="245" Name="Sch" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">semiconductors_and_actives.discretes.diodes</Classifications>
+</Component>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="503a78fc-9490-49e4-a2bf-687ffd261317" Name="IR19_21C_TR8" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-1c187779-5a49-4569-b2cd-005d8c8805ec" Author="" Notes="" XPosition="238" YPosition="168" Name="EDAModel" Package="0603(1)" Device="" Library="Batch_2" DeviceSet="IR_LED" xmlns="">
+    <Pin ID="id-3e825ec7-4650-47ec-87fb-701c65281598" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="C" EDAGate="G$1" EDASymbolLocationX="-2.54" EDASymbolLocationY="-2.54" EDASymbolRotation="R90" SPICEPortNumber="0" />
+    <Pin ID="id-a536135e-a9eb-46df-adb6-1b6cdfbe7c90" PortMap="id-ca439ba5-8a35-4a94-a079-54c181e598c6" Notes="" XPosition="25" Definition="" YPosition="25" Name="A" EDAGate="G$1" EDASymbolLocationX="-2.54" EDASymbolLocationY="5.08" EDASymbolRotation="R270" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-7c23c34f-bb87-4fbf-96cc-9db8c2ff11c3" XPosition="532" YPosition="21" xmlns="">
+    <Value ID="id-7c23c34f-bb87-4fbf-96cc-9db8c2ff11c3" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>IR19-21C/TR8</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency XPosition="126" YPosition="7" Name="Icon.png" Path="Icon.png" Hash="" ID="id-85d7ae64-2acd-46eb-935d-1e1dc3186b8e" Notes="Custom icon for this component" xmlns="" />
+  <ResourceDependency XPosition="650" YPosition="200" Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-1c187779-5a49-4569-b2cd-005d8c8805ec" Notes="Standalone EAGLE library for this device" xmlns="" />
+  <ResourceDependency Name="everlight_irled.pdf" Path="doc\everlight_irled.pdf" Hash="" ID="id-3e629db2-89e7-4d48-ae0a-96788dbb7d5f" Notes="" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-9b342ed5-6900-43b4-b689-25e24ac18300" ApplyJoinData="" Notes="" Name="C" Definition="StdPin" YPosition="294" XPosition="378" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-8d1c64cc-6135-43f8-b125-0515704f9198" PortMap="id-3e825ec7-4650-47ec-87fb-701c65281598" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-d86e4d6f-6aa9-49fc-ad57-0497334c4835" ApplyJoinData="" Notes="" Name="A" Definition="StdPin" YPosition="287" XPosition="91" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-ca439ba5-8a35-4a94-a079-54c181e598c6" PortMap="" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">optoelectronics.light_sources_and_emitters.leds.ir_emitters</Classifications>
+</Component>

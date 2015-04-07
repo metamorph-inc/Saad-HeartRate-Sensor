@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="9eaea128-b6ef-4ce5-87c5-3d83de4630d1" Name="LM1117IMP_5.0_NOPB" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-2cb75098-21db-4247-b071-40cd1b3f76fe" Author="" Notes="" XPosition="270" YPosition="214" Name="EDAModel" Package="SOT223" Device="" Library="LM1117IMP-5.0-NOPB-697418" DeviceSet="LM1117IMP-5.0-NOPB" xmlns="">
+    <Pin ID="id-1ba9a829-cd2d-4dc1-a561-05f178404930" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="IN" EDAGate="G$1" EDASymbolLocationX="-17.78" EDASymbolLocationY="0" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-74ede456-c1cf-4ea4-8bc4-ba678b599de1" PortMap="id-acc92917-c4ce-4d5b-a53f-bcf52d8650c3 id-590fd013-78e6-41e0-9113-02bd2548fce6" Notes="" XPosition="25" Definition="" YPosition="25" Name="GND" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="-10.16" EDASymbolRotation="R90" SPICEPortNumber="0" />
+    <Pin ID="id-0fda74d1-5cf3-438b-a41b-fc6c13f27f72" PortMap="id-3ce260ae-4808-4d70-8a6d-6d6f5967a8f5" Notes="" XPosition="225" Definition="" YPosition="25" Name="OUT" EDAGate="G$1" EDASymbolLocationX="17.78" EDASymbolLocationY="0" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-d2e90ad5-6535-498a-81a4-da550b3fe32c" XPosition="476" YPosition="14" xmlns="">
+    <Value ID="id-d2e90ad5-6535-498a-81a4-da550b3fe32c" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>LM1117IMP-5.0-NOPB</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="LM1117IMP-5.0-NOPB_datasheet.pdf" Path="doc\LM1117IMP-5.0-NOPB_datasheet.pdf" Hash="" ID="id-f87cbcba-5042-4cbb-8efa-2b697f0cf726" Notes="" XPosition="294" YPosition="7" xmlns="" />
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-2cb75098-21db-4247-b071-40cd1b3f76fe" Notes="Standalone EAGLE library for this device" XPosition="315" YPosition="112" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-1b584dd7-5923-4d97-8190-4ef11a716d92" ApplyJoinData="" XPosition="469" YPosition="399" Notes="" Definition="AnalogSignal" Name="OUT" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-590fd013-78e6-41e0-9113-02bd2548fce6" PortMap="" Notes="" XPosition="42" Definition="" YPosition="119" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-3ce260ae-4808-4d70-8a6d-6d6f5967a8f5" PortMap="" Notes="" XPosition="42" Definition="" YPosition="42" Name="S" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-5a42e1a0-5684-4ab4-85c3-c596d5ad63de" ApplyJoinData="" XPosition="119" YPosition="399" Notes="" Definition="AnalogSignal" Name="IN" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-6fa6e61b-e4b6-4a55-b86f-0e8060a65ce7" PortMap="id-1ba9a829-cd2d-4dc1-a561-05f178404930" Notes="" XPosition="42" Definition="" YPosition="42" Name="S" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q6="schematic" xsi:type="q6:Pin" ID="id-acc92917-c4ce-4d5b-a53f-bcf52d8650c3" PortMap="" Notes="" XPosition="42" Definition="" YPosition="119" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="" />
+</Component>

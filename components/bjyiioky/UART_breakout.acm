@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="0c838222-603d-4e7d-8813-4925c0d1f0a4" Name="UART_breakout" Version="" xmlns="avm">
+  <Connector ConnectorComposition="" ID="id-edb50bc1-e030-4b60-9d45-b596aa267911" ApplyJoinData="" Notes="" Name="UART" Definition="UART" YPosition="189" XPosition="742" xmlns="">
+    <Role xmlns:q1="systemc" xsi:type="q1:SystemCPort" ID="id-798717ce-ae30-4fcf-a57a-a65096342580" PortMap="" Notes="" XPosition="175" Definition="" YPosition="161" Name="RXD" DataType="bool" DataTypeDimension="1" Directionality="not_applicable" Function="normal" />
+    <Role xmlns:q2="systemc" xsi:type="q2:SystemCPort" ID="id-299c0b67-1c9b-4b7c-8b14-75e70745282a" PortMap="" Notes="" XPosition="168" Definition="" YPosition="63" Name="TXD" DataType="bool" DataTypeDimension="1" Directionality="not_applicable" Function="normal" />
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-a08222f7-55e5-4852-83c5-5a9710b8f2f8" PortMap="" Notes="" XPosition="63" Definition="" YPosition="147" Name="RXD" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-14c3eefe-ae6d-4cf8-a09f-aff32429bb77" PortMap="id-156a51d8-cac4-4f46-9836-48ff0e550e26" Notes="" XPosition="63" Definition="" YPosition="70" Name="TXD" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-0c7c1c96-f682-462a-b973-502d7e084adc" PortMap="id-b2a273f3-1376-4e5a-b877-6e25e8039260" Notes="" XPosition="63" Definition="" YPosition="224" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-86512fc3-2ee2-446b-b46a-cc1452f97c16" ApplyJoinData="" Notes="" Name="TX" Definition="DigitalSignal" YPosition="119" XPosition="217" xmlns="">
+    <Role xmlns:q6="systemc" xsi:type="q6:SystemCPort" ID="id-431b9dc4-22ff-48af-9c8d-d13f293dd1ac" PortMap="" Notes="" XPosition="133" Definition="" YPosition="21" Name="P0" DataType="bool" DataTypeDimension="1" Directionality="not_applicable" Function="normal" />
+    <Role xmlns:q7="schematic" xsi:type="q7:Pin" ID="id-b2a273f3-1376-4e5a-b877-6e25e8039260" PortMap="id-3246e47b-6a68-46b6-96a1-64f613bc99a3" Notes="" XPosition="35" Definition="" YPosition="98" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q8="schematic" xsi:type="q8:Pin" ID="id-6cb4f466-dabf-432c-8d2e-a94495ad645a" PortMap="id-a08222f7-55e5-4852-83c5-5a9710b8f2f8" Notes="" XPosition="35" Definition="" YPosition="28" Name="P0" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-702131ef-4ed3-4656-b9c8-95f007febdd9" ApplyJoinData="" Notes="" Name="RX" Definition="DigitalSignal" YPosition="231" XPosition="217" xmlns="">
+    <Role xmlns:q9="systemc" xsi:type="q9:SystemCPort" ID="id-15178378-0f92-430c-9c79-d6370738db83" PortMap="" Notes="" XPosition="133" Definition="" YPosition="21" Name="P0" DataType="bool" DataTypeDimension="1" Directionality="not_applicable" Function="normal" />
+    <Role xmlns:q10="schematic" xsi:type="q10:Pin" ID="id-3246e47b-6a68-46b6-96a1-64f613bc99a3" PortMap="" Notes="" XPosition="35" Definition="" YPosition="98" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q11="schematic" xsi:type="q11:Pin" ID="id-156a51d8-cac4-4f46-9836-48ff0e550e26" PortMap="" Notes="" XPosition="35" Definition="" YPosition="28" Name="P0" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="" />
+</Component>

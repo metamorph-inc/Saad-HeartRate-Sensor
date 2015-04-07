@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="a326c3c0-9f50-42cb-a7ff-ba04b7a13979" Name="255SB" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-b7a31aa9-f747-4b22-81ff-34345ad7a429" Author="" Notes="" XPosition="270" YPosition="200" Name="EDAModel" Package="255SB" Device="" Library="switch" DeviceSet="255SB" xmlns="">
+    <Pin ID="id-fd911db5-cab7-416a-b51d-990c50be3239" PortMap="id-3785a13d-5326-4806-b4b9-0c537dcf5daa" Notes="" XPosition="25" Definition="" YPosition="25" Name="O" EDAGate="1" EDASymbolLocationX="0" EDASymbolLocationY="5.08" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Pin ID="id-fa05fcba-6265-4231-8f40-e11f2a3bd3ac" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="S" EDAGate="1" EDASymbolLocationX="5.08" EDASymbolLocationY="5.08" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Pin ID="id-a4eec877-b6cd-4a9c-b46c-cf3f0a12ae50" PortMap="id-0c886a59-1b6c-4e27-92c1-26e6b0c99e77" Notes="" XPosition="125" Definition="" YPosition="25" Name="P" EDAGate="1" EDASymbolLocationX="2.54" EDASymbolLocationY="-5.08" EDASymbolRotation="R90" SPICEPortNumber="0" />
+    <Parameter XPosition="325" YPosition="25" Locator="value">
+      <Value ID="id-645a0243-a31e-4a2f-a235-1e1477f1b6b1">
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:DerivedValue" ValueSource="id-cfa1f736-2afb-4d99-a3c2-079e1665b583" />
+      </Value>
+    </Parameter>
+  </DomainModel>
+  <Property xmlns:q3="avm" xsi:type="q3:PrimitiveProperty" Name="value" OnDataSheet="false" ID="property.id-cfa1f736-2afb-4d99-a3c2-079e1665b583" XPosition="20" YPosition="200" xmlns="">
+    <Value ID="id-cfa1f736-2afb-4d99-a3c2-079e1665b583" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q3:FixedValue">
+        <Value />
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-21115a95-0c4c-4414-a203-95041dd458dc" Notes="Custom icon for this component" xmlns="" />
+  <ResourceDependency XPosition="650" YPosition="200" Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-b7a31aa9-f747-4b22-81ff-34345ad7a429" Notes="Standalone EAGLE library for this device" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-be9343d4-e0bd-450e-97f6-e2974027fd0e" ApplyJoinData="" Notes="" Name="S" Definition="StdPin" YPosition="350" XPosition="770" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-3ed32df2-963a-4323-ad38-8748e39b18d1" PortMap="id-fa05fcba-6265-4231-8f40-e11f2a3bd3ac" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-f6137419-bd1f-4334-a5a7-4bae17815761" ApplyJoinData="" Notes="" Name="O" Definition="StdPin" YPosition="252" XPosition="770" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-3785a13d-5326-4806-b4b9-0c537dcf5daa" PortMap="" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-5c4c600d-0376-4ad7-93c9-452607a77cb9" ApplyJoinData="" Notes="" Name="P" Definition="StdPin" YPosition="315" XPosition="77" xmlns="">
+    <Role xmlns:q6="schematic" xsi:type="q6:Pin" ID="id-0c886a59-1b6c-4e27-92c1-26e6b0c99e77" PortMap="" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="" />
+</Component>

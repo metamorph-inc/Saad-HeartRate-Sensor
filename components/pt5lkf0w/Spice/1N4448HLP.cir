@@ -1,0 +1,3 @@
+*SRC=1N4448HLP;DI_1N4448HLP;Diodes;Si;  80.0V  0.250A  4.00ns   Diodes Inc. Switching Diode
+.MODEL DI_1N4448HLP D  ( IS=5.31n RS=0.761 BV=80.0 IBV=100n
++ CJO=3.56p  M=0.333 N=1.90 TT=5.76n )

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="ca47844b-d2ac-4701-8a72-2813a87a033c" Name="B3F-1000" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-7de600a7-55bc-41fd-90e3-ee470c9e13e4" Author="" Notes="" XPosition="270" YPosition="200" Name="EDAModel" Package="B3F-10XX" Device="" Library="switch-omron" DeviceSet="10-XX" xmlns="">
+    <Pin ID="id-405fb48b-5e49-47be-820f-2b651d8883d8" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="P1" EDAGate="1" EDASymbolLocationX="2.54" EDASymbolLocationY="-5.08" EDASymbolRotation="R90" SPICEPortNumber="0" />
+    <Pin ID="id-07c51ea5-0a6f-4b9c-86e7-0694c00532e9" PortMap="" Notes="" XPosition="25" Definition="" YPosition="25" Name="P" EDAGate="1" EDASymbolLocationX="0" EDASymbolLocationY="-5.08" EDASymbolRotation="R90" SPICEPortNumber="0" />
+    <Pin ID="id-7a6a0cfa-3e7d-4bfb-abd6-37a7b8bfe9aa" PortMap="" Notes="" XPosition="325" Definition="" YPosition="25" Name="S1" EDAGate="1" EDASymbolLocationX="2.54" EDASymbolLocationY="5.08" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Pin ID="id-93d73e84-ad73-4078-a8ce-486f5da29cd6" PortMap="id-718f0b88-13aa-41d0-8a94-4c7f578fe228" Notes="" XPosition="225" Definition="" YPosition="25" Name="S" EDAGate="1" EDASymbolLocationX="0" EDASymbolLocationY="5.08" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Parameter XPosition="425" YPosition="25" Locator="value">
+      <Value ID="id-47bf1016-d95d-4b82-95e3-faf3edec1dc9">
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:DerivedValue" ValueSource="id-e02eced5-dd4f-4466-84da-c6b38d5501c1" />
+      </Value>
+    </Parameter>
+  </DomainModel>
+  <Property xmlns:q3="avm" xsi:type="q3:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-3085f3d4-9200-4e70-b480-c46d13fc51d0" XPosition="336" YPosition="28" xmlns="">
+    <Value ID="id-3085f3d4-9200-4e70-b480-c46d13fc51d0" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q3:FixedValue">
+        <Value>B3F-1000</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q4="avm" xsi:type="q4:PrimitiveProperty" Name="value" OnDataSheet="false" ID="property.id-e02eced5-dd4f-4466-84da-c6b38d5501c1" XPosition="20" YPosition="200" xmlns="">
+    <Value ID="id-e02eced5-dd4f-4466-84da-c6b38d5501c1" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q4:FixedValue">
+        <Value />
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="B3F-1000_datasheet.pdf" Path="doc\B3F-1000_datasheet.pdf" Hash="" ID="id-cc0d1e9c-696e-4ca0-af1e-01431e0b7eaa" Notes="" XPosition="210" YPosition="7" xmlns="" />
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-7de600a7-55bc-41fd-90e3-ee470c9e13e4" Notes="Standalone EAGLE library for this device" XPosition="315" YPosition="105" xmlns="" />
+  <ResourceDependency Name="B3F-1000.md" Path="doc\B3F-1000.md" Hash="" ID="id-274a0fe9-6239-4b57-adf9-addadbe66a02" Notes="" XPosition="42" YPosition="7" xmlns="" />
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-654d8735-19f6-4420-85d8-0210c3189936" Notes="Custom icon for this component" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-89b11985-9d15-40b8-a41b-dc929fe752ea" ApplyJoinData="" XPosition="63" YPosition="294" Notes="" Definition="StdPin" Name="P" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-d5eb636d-f38a-4430-8133-4d76c56a88ee" PortMap="id-405fb48b-5e49-47be-820f-2b651d8883d8 id-07c51ea5-0a6f-4b9c-86e7-0694c00532e9" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-9b19b11a-ecc9-4f34-93e6-bb9a808e65a2" ApplyJoinData="" XPosition="448" YPosition="294" Notes="" Definition="StdPin" Name="S" xmlns="">
+    <Role xmlns:q6="schematic" xsi:type="q6:Pin" ID="id-718f0b88-13aa-41d0-8a94-4c7f578fe228" PortMap="id-7a6a0cfa-3e7d-4bfb-abd6-37a7b8bfe9aa" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">industrial_control.switches</Classifications>
+  <Classifications xmlns="" />
+</Component>

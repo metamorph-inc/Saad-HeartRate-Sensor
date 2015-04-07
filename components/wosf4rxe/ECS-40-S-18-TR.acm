@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="c982b606-9feb-4d00-be28-71a7fa36fa7b" Name="ECS-40-S-18-TR" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-0a41dc15-fe55-45af-9a16-24c00ebddb48" Author="" Notes="" XPosition="270" YPosition="249" Name="EDAModel" Package="ABRA_ULTRAMINI_SMD" Device="ULTRAMINI" Library="Batch_2" DeviceSet="ASA_CRYSTAL" xmlns="">
+    <Pin ID="id-9b29734f-697f-4315-8f2d-d96fbf04d984" PortMap="id-40598e7d-cfca-4893-b3ee-163230b3a07a" Notes="" XPosition="325" Definition="" YPosition="25" Name="VDD" EDAGate="G$1" EDASymbolLocationX="12.7" EDASymbolLocationY="-5.08" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-3942c3e8-dc00-4219-a898-263441063937" PortMap="id-bd58bb73-76a5-4116-a458-b62edd48b034 id-e6d2386f-d658-4bbe-9559-754ab8388bb7" Notes="" XPosition="25" Definition="" YPosition="25" Name="GND" EDAGate="G$1" EDASymbolLocationX="-12.7" EDASymbolLocationY="-5.08" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-c88befcf-1ca0-4247-a641-7a8374c3e08e" PortMap="id-d3126fa6-2fac-4895-80b7-f04d7a09b9a6" Notes="" XPosition="225" Definition="" YPosition="25" Name="TRI" EDAGate="G$1" EDASymbolLocationX="-12.7" EDASymbolLocationY="5.08" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-8580bfae-a692-466a-8011-bfc2b4f2940f" PortMap="id-4ecb9e5d-f98c-4f90-a188-ffb6f423aee2" Notes="" XPosition="125" Definition="" YPosition="25" Name="OUT" EDAGate="G$1" EDASymbolLocationX="12.7" EDASymbolLocationY="5.08" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-6dbb51d6-bffd-4106-897d-0695518579b2" XPosition="42" YPosition="7" xmlns="">
+    <Value ID="id-6dbb51d6-bffd-4106-897d-0695518579b2" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>ECS-40-S-18-TR</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-0a41dc15-fe55-45af-9a16-24c00ebddb48" Notes="Standalone EAGLE library for this device" XPosition="650" YPosition="249" xmlns="" />
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-70b647bc-67ce-435d-a431-cec9aaeeb581" Notes="Custom icon for this component" XPosition="42" YPosition="42" xmlns="" />
+  <ResourceDependency Name="ultramini_crystal.pdf" Path="doc\ultramini_crystal.pdf" Hash="" ID="id-cfb7d9db-8d18-4b18-b7f7-cba85d9df768" Notes="" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-2d79b0bb-607a-4249-bb48-7da4a2552be5" ApplyJoinData="" XPosition="63" YPosition="259" Notes="" Definition="DigitalClock" Name="4MHz" xmlns="">
+    <Role xmlns:q3="systemc" xsi:type="q3:SystemCPort" ID="id-2d0f1852-6c40-4172-837b-69ad12f7821c" PortMap="" Notes="" XPosition="133" Definition="" YPosition="21" Name="CLK" DataType="bool" DataTypeDimension="1" Directionality="not_applicable" Function="normal" />
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-bd58bb73-76a5-4116-a458-b62edd48b034" PortMap="" Notes="" XPosition="35" Definition="" YPosition="98" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-4ecb9e5d-f98c-4f90-a188-ffb6f423aee2" PortMap="" Notes="" XPosition="35" Definition="" YPosition="28" Name="CLK" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-a78b9022-ab6a-4f5b-b72a-e814de32f5da" ApplyJoinData="" XPosition="497" YPosition="294" Notes="" Definition="DigitalSignal" Name="TRI_STATE" xmlns="">
+    <Role xmlns:q6="systemc" xsi:type="q6:SystemCPort" ID="id-a9173511-10a1-453e-927e-1079e5d5a841" PortMap="" Notes="" XPosition="133" Definition="" YPosition="21" Name="P0" DataType="bool" DataTypeDimension="1" Directionality="not_applicable" Function="normal" />
+    <Role xmlns:q7="schematic" xsi:type="q7:Pin" ID="id-e6d2386f-d658-4bbe-9559-754ab8388bb7" PortMap="" Notes="" XPosition="35" Definition="" YPosition="98" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q8="schematic" xsi:type="q8:Pin" ID="id-d3126fa6-2fac-4895-80b7-f04d7a09b9a6" PortMap="" Notes="" XPosition="35" Definition="" YPosition="28" Name="P0" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-2cc194f3-b5b2-4956-9102-3ad91d67b3f7" ApplyJoinData="" XPosition="245" YPosition="91" Notes="" Definition="PwrGnd_TwoPort" Name="VDD" xmlns="">
+    <Role xmlns:q9="schematic" xsi:type="q9:Pin" ID="id-634c7e26-4f49-4e3b-ba99-70ebdaca4602" PortMap="id-3942c3e8-dc00-4219-a898-263441063937" Notes="" XPosition="224" Definition="" YPosition="126" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q10="schematic" xsi:type="q10:Pin" ID="id-40598e7d-cfca-4893-b3ee-163230b3a07a" PortMap="" Notes="" XPosition="224" Definition="" YPosition="49" Name="VCC" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">passive_components.crystals-resonators-oscillators.crystals</Classifications>
+</Component>

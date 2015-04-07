@@ -1,0 +1,56 @@
+<eagle version="6.5.0" xmlns="eagle">
+  <drawing>
+    <library>
+      <packages>
+        <package name="2-XFDFN" xmlns="eagle">
+          <description>&lt;B&gt;2-UFDFN&lt;/B&gt; package for 1.0 x 0.6 mm SMD chip diode.&lt;br&gt;
+Diodes Inc package: X1-DFN1006-2 
+&lt;P&gt;
+
+2-DFN1006 (1.0x0.6)&lt;br&gt;</description>
+          <smd name="C" x="-0.35" y="0" dx="0.4" dy="0.7" layer="1" stop="no" />
+          <smd name="A" x="0.35" y="0" dx="0.4" dy="0.7" layer="1" stop="no" />
+          <wire x1="-0.6" y1="0.6" x2="0.6" y2="0.6" width="0.127" layer="21" />
+          <wire x1="-0.6" y1="-0.6" x2="0.6" y2="-0.6" width="0.127" layer="21" />
+          <circle x="-0.9" y="0" radius="0.063" width="0.127" layer="21" />
+          <text x="-0.8" y="0.8" size="1.016" layer="25" font="vector" ratio="15">&gt;NAME</text>
+          <rectangle x1="-0.625" y1="-0.425" x2="-0.075" y2="0.425" layer="29" />
+          <rectangle x1="0.075" y1="-0.425" x2="0.625" y2="0.425" layer="29" />
+        </package>
+      </packages>
+      <symbols>
+        <symbol name="DIODE">
+          <description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+          <text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+          <text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+          <pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270" />
+          <pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90" />
+          <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94" />
+          <polygon width="0.254" layer="94">
+            <vertex x="-1.27" y="0" />
+            <vertex x="1.27" y="0" />
+            <vertex x="0" y="-2.54" />
+          </polygon>
+        </symbol>
+      </symbols>
+      <devicesets>
+        <deviceset name="D_1N4448HLP-7" prefix="D">
+          <gates>
+            <gate name="G$1" symbol="DIODE" x="0" y="-2.54" />
+          </gates>
+          <devices>
+            <device name="" package="2-XFDFN" xmlns="eagle">
+              <connects>
+                <connect gate="G$1" pin="A" pad="A" />
+                <connect gate="G$1" pin="C" pad="C" />
+              </connects>
+              <technologies>
+                <technology name="" />
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+      </devicesets>
+    </library>
+  </drawing>
+</eagle>

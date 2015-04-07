@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="a428f98c-1a7e-4679-9fad-e6d207d5c9f6" Name="1623920-3" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-b5d42f5d-54fa-46e2-a650-bd137f9bb4e7" Author="" Notes="" XPosition="270" YPosition="200" Name="EDAModel" Package="SMD_TRIMMERS" Device="" Library="Andres_Project" DeviceSet="SMD_TRMMER_POTENTIOMETER" xmlns="">
+    <Pin ID="id-d431ca02-6aac-4876-8dc7-0208510c1f0c" PortMap="" Notes="" XPosition="25" Definition="" YPosition="25" Name="GND" EDAGate="G$1" EDASymbolLocationX="-10.16" EDASymbolLocationY="0" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-b9c7efa3-c57a-4dbb-9d52-2f9eb25d4fa8" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="VDD" EDAGate="G$1" EDASymbolLocationX="10.16" EDASymbolLocationY="-5.08" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-1a170bee-058e-4b02-b343-c76d0679f7c9" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="VOUT" EDAGate="G$1" EDASymbolLocationX="10.16" EDASymbolLocationY="5.08" EDASymbolRotation="R180" SPICEPortNumber="0" />
+  </DomainModel>
+  <DomainModel xmlns:q2="spice" xsi:type="q2:SPICEModel" UsesResource="id-16f3b9f9-f8ad-4812-9bff-642460d7d223" Author="" Notes="Created using SPICE Model CAT Module" XPosition="350" YPosition="718" Name="CB10_SPICEModel" Class="X:CB10" xmlns="">
+    <Pin ID="id-c5bb3efd-98b9-41ac-aa9e-c4cc19acecbd" PortMap="" Notes="" XPosition="50" Definition="" YPosition="50" Name="1" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Pin ID="id-78c4916f-eca2-4207-a5d9-4280d0588e09" PortMap="id-1313e859-9199-4253-8fd4-3a145531a953" Notes="" XPosition="50" Definition="" YPosition="150" Name="2" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="1" />
+    <Pin ID="id-6d1186db-7524-4ea5-b1bd-4c229cbb8e68" PortMap="" Notes="" XPosition="50" Definition="" YPosition="250" Name="3" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="2" />
+  </DomainModel>
+  <Property xmlns:q3="avm" xsi:type="q3:PrimitiveProperty" Name="Octopart_mpn" OnDataSheet="false" ID="property.id-14279946-e9c5-4ff5-ba8e-b893d18462c0" XPosition="399" YPosition="518" xmlns="">
+    <Value ID="id-14279946-e9c5-4ff5-ba8e-b893d18462c0" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q3:FixedValue">
+        <Value>1630480-4</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-b5d42f5d-54fa-46e2-a650-bd137f9bb4e7" Notes="Standalone EAGLE library for this device" XPosition="650" YPosition="200" xmlns="" />
+  <ResourceDependency Name="SPICEModelFile" Path="Spice\Potentiometer" Hash="" ID="id-16f3b9f9-f8ad-4812-9bff-642460d7d223" Notes="Derived from 'C:\Users\Andres\Desktop\Spice_Components\Potentiometer'.&#xA;" XPosition="550" YPosition="618" xmlns="" />
+  <Port xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-1313e859-9199-4253-8fd4-3a145531a953" PortMap="id-1a170bee-058e-4b02-b343-c76d0679f7c9" Notes="" XPosition="225" Definition="" YPosition="340" Name="VOUT" EDAGate="G$1" EDASymbolLocationX="10.16" EDASymbolLocationY="5.08" EDASymbolRotation="R180" SPICEPortNumber="0" xmlns="" />
+  <Port xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-5903cd89-b7b2-4076-8d06-48c95afc8c1b" PortMap="id-c5bb3efd-98b9-41ac-aa9e-c4cc19acecbd id-b9c7efa3-c57a-4dbb-9d52-2f9eb25d4fa8" Notes="" XPosition="125" Definition="" YPosition="340" Name="VDD" EDAGate="G$1" EDASymbolLocationX="10.16" EDASymbolLocationY="-5.08" EDASymbolRotation="R180" SPICEPortNumber="0" xmlns="" />
+  <Port xmlns:q6="schematic" xsi:type="q6:Pin" ID="id-925caadb-35b5-4af3-89b4-32a287fccdd6" PortMap="id-6d1186db-7524-4ea5-b1bd-4c229cbb8e68 id-d431ca02-6aac-4876-8dc7-0208510c1f0c" Notes="" XPosition="25" Definition="" YPosition="340" Name="GND" EDAGate="G$1" EDASymbolLocationX="-10.16" EDASymbolLocationY="0" EDASymbolRotation="0" SPICEPortNumber="0" xmlns="" />
+  <Classifications xmlns="" >passive_components.resistors.potentiometers </Classifications>
+</Component>

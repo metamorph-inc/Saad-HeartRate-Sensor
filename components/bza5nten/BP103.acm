@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="2c5f40aa-239b-4a11-9322-e2223885507f" Name="BP103" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-c72885ce-39d0-4563-ae4e-df35d267e098" Author="" Notes="" XPosition="270" YPosition="200" Name="EDAModel" Package="BP103" Device="" Library="opto-trans-siemens" DeviceSet="BP103" xmlns="">
+    <Pin ID="id-d7884945-f494-4faa-bc5c-3e18efd9f699" PortMap="" Notes="" XPosition="25" Definition="" YPosition="25" Name="B" EDAGate="1" EDASymbolLocationX="-2.54" EDASymbolLocationY="0" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-d1c81a77-f0e1-4f8a-85c8-5c8b1801f9d9" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="E" EDAGate="1" EDASymbolLocationX="2.54" EDASymbolLocationY="-5.08" EDASymbolRotation="R90" SPICEPortNumber="0" />
+    <Pin ID="id-f7deb92b-068e-4146-b0a4-a7a4d03f5658" PortMap="id-4fda8b5c-060d-4833-b8e9-2df20aa64727" Notes="" XPosition="125" Definition="" YPosition="25" Name="C" EDAGate="1" EDASymbolLocationX="2.54" EDASymbolLocationY="5.08" EDASymbolRotation="R270" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-3085f3d4-9200-4e70-b480-c46d13fc51d0" XPosition="336" YPosition="28" xmlns="">
+    <Value ID="id-3085f3d4-9200-4e70-b480-c46d13fc51d0" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>BP103-3/4</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-34617369-1d43-4175-9edb-fe0111239f9f" Notes="Custom icon for this component" xmlns="" />
+  <ResourceDependency XPosition="315" YPosition="119" Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-c72885ce-39d0-4563-ae4e-df35d267e098" Notes="Standalone EAGLE library for this device" xmlns="" />
+  <ResourceDependency XPosition="189" YPosition="7" Name="BP103_datasheet.pdf" Path="doc\BP103_datasheet.pdf" Hash="" ID="id-fe45d8ae-5ca6-4def-8399-d760d03fc7f1" Notes="" xmlns="" />
+  <ResourceDependency XPosition="42" YPosition="7" Name="BP103.md" Path="doc\BP103.md" Hash="" ID="id-e336ed21-06ad-4581-9f14-1710be25f8a1" Notes="" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-91baf6e1-bb0a-44e9-bdd7-5e63b5b9588d" ApplyJoinData="" Notes="" Name="B" Definition="StdPin" YPosition="245" XPosition="49" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-d6592a5f-7ea4-41a9-ab75-41f425760706" PortMap="id-d7884945-f494-4faa-bc5c-3e18efd9f699" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-34755116-a068-4f73-bd47-9a0d1b5cb00b" ApplyJoinData="" Notes="" Name="C" Definition="StdPin" YPosition="147" XPosition="483" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-4fda8b5c-060d-4833-b8e9-2df20aa64727" PortMap="" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-46baf87e-ed4e-4a82-80d5-ad4d7eb73730" ApplyJoinData="" Notes="" Name="E" Definition="StdPin" YPosition="273" XPosition="483" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-0d2f71d2-1f06-4fa2-80ef-16336e174162" PortMap="id-d1c81a77-f0e1-4f8a-85c8-5c8b1801f9d9" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">optoelectronics.detectors.single_sensor_detectors.phototransistor</Classifications>
+</Component>

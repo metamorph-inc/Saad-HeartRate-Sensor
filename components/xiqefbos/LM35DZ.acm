@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="00478122-fa22-4655-b487-57489afa48bf" Name="LM35DZ" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-33acc4bc-4bba-44e8-a2da-93eff150ffca" Author="" Notes="" XPosition="270" YPosition="200" Name="EDAModel" Package="TO92" Device="" Library="ecad" DeviceSet="AD590ZR" xmlns="">
+    <Pin ID="id-671b7c1c-2ea2-4471-849e-00311dc836bc" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="CAN" EDAGate="A" EDASymbolLocationX="-5.08" EDASymbolLocationY="0" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-948893f2-3163-49a1-ac3f-ad52a92c0d9c" PortMap="id-a2fbea63-a23e-4a3f-af5c-2620b44d63f6" Notes="" XPosition="125" Definition="" YPosition="25" Name="+" EDAGate="A" EDASymbolLocationX="0" EDASymbolLocationY="7.62" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Pin ID="id-645afc94-6f18-4095-ac5e-cec44eb3ae47" PortMap="id-ff9c63cc-15e1-456f-adcf-db68ba9dc22e" Notes="" XPosition="25" Definition="" YPosition="25" Name="-" EDAGate="A" EDASymbolLocationX="0" EDASymbolLocationY="-5.08" EDASymbolRotation="R90" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-91214ffc-888f-4fb0-b881-99d28c201c0f" XPosition="105" YPosition="14" xmlns="">
+    <Value ID="id-91214ffc-888f-4fb0-b881-99d28c201c0f" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>LM35DZ/NOPB </Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency XPosition="650" YPosition="200" Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-33acc4bc-4bba-44e8-a2da-93eff150ffca" Notes="Standalone EAGLE library for this device" xmlns="" />
+  <ResourceDependency XPosition="49" YPosition="49" Name="LM35DZ.md" Path="doc\LM35DZ.md" Hash="" ID="id-2323d2f2-1aa8-4756-a669-a9165d32182e" Notes="" xmlns="" />
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-64bd2fb9-2df5-4385-803a-c364c470d879" Notes="Custom icon for this component" xmlns="" />
+  <ResourceDependency XPosition="42" YPosition="7" Name="lm35.pdf" Path="doc\lm35.pdf" Hash="" ID="id-027b0285-aeb8-49eb-ae22-44150cbc301a" Notes="" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-eff0aadb-36b1-4a52-a094-aa4adbded49a" ApplyJoinData="" XPosition="56" YPosition="259" Notes="" Definition="StdPin" Name="Vout" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-ff9c63cc-15e1-456f-adcf-db68ba9dc22e" PortMap="" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-39be50ee-f467-47ed-a052-dc2b533f7ac2" ApplyJoinData="" XPosition="301" YPosition="343" Notes="" Definition="PwrGnd_TwoPort" Name="VCC" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-a2fbea63-a23e-4a3f-af5c-2620b44d63f6" PortMap="" Notes="" XPosition="224" Definition="" YPosition="49" Name="VCC" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-5d8e1621-3f0c-4b92-9510-d39b1d7a479d" PortMap="id-671b7c1c-2ea2-4471-849e-00311dc836bc" Notes="" XPosition="224" Definition="" YPosition="126" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">semiconductors_and_actives.sensors.temperature_sensor_ics</Classifications>
+</Component>

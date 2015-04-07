@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="e7e04133-9d12-4bc1-90d0-bac73fb2c6bb" Name="LED_0603_GREEN" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-dfcaab98-1f5f-4b79-babb-3c8be3200399" Author="" Notes="" XPosition="322" YPosition="119" Package="0603-LED-KINGBRIGHT" Device="" Library="VUmeterlib" DeviceSet="LED-0603-KINGBRIGHT" xmlns="">
+    <Pin ID="id-c9a2cc73-fa60-44bc-9b70-cf16f6e6df41" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="P$2" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="7.62" EDASymbolRotation="R270" SPICEPortNumber="0" />
+    <Pin ID="id-7a3cf5fd-094f-4e03-92f7-f58a64dc8c83" PortMap="" Notes="" XPosition="25" Definition="" YPosition="25" Name="P$1" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="0" EDASymbolRotation="R90" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-e61b1e36-a6d1-4126-9655-0a4fc1dadf2a" XPosition="35" YPosition="574" xmlns="">
+    <Value ID="id-e61b1e36-a6d1-4126-9655-0a4fc1dadf2a" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>APT1608SGC</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-dfcaab98-1f5f-4b79-babb-3c8be3200399" Notes="Standalone EAGLE library for this device" XPosition="700" YPosition="119" xmlns="" />
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-85d9221e-e20c-4f8c-a008-96b9087f1030" Notes="Custom icon for this component" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-655f26c6-8fa2-4dcd-b7c6-066a4e463501" ApplyJoinData="" XPosition="644" YPosition="336" Notes="" Definition="" Name="Cath" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-dc622909-5265-47f9-8fd6-80ede0ddf43c" PortMap="id-7a3cf5fd-094f-4e03-92f7-f58a64dc8c83" Notes="" XPosition="28" Definition="" YPosition="28" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-138f592b-c6e2-4bf2-8a2c-43253809e986" ApplyJoinData="" XPosition="63" YPosition="378" Notes="" Definition="" Name="Anode" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-8446c119-a190-4c09-88c8-92cabd4fa2a4" PortMap="id-c9a2cc73-fa60-44bc-9b70-cf16f6e6df41" Notes="" XPosition="56" Definition="" YPosition="35" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">optoelectronics.light_sources_and_emitters.leds.leds_(discrete)</Classifications>
+</Component>

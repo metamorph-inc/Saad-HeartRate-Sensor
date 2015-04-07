@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="8f5b0aff-555b-464c-b8d6-7486969326c3" Name="PwrGndSplitter" Version="" xmlns="avm">
+  <Connector ConnectorComposition="" ID="id-5cceb3e5-1556-43c7-a222-29d833a6d908" ApplyJoinData="" Notes="" Name="VCC" Definition="AnalogSignal" YPosition="203" XPosition="791" xmlns="">
+    <Role xmlns:q1="schematic" xsi:type="q1:Pin" ID="id-4baa1b1a-26df-46b9-a9a4-382c4ebd42bd" PortMap="" Notes="" XPosition="42" Definition="" YPosition="119" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q2="schematic" xsi:type="q2:Pin" ID="id-de7f9aeb-3c80-4bac-a294-0736752d7ffc" PortMap="" Notes="" XPosition="42" Definition="" YPosition="42" Name="S" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-56bb73e3-1726-4f55-8e3c-40fb32632fec" ApplyJoinData="" Notes="" Name="GND" Definition="AnalogSignal" YPosition="378" XPosition="826" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-ae1b6824-09d3-4f4c-b6ef-6bfa89c84d65" PortMap="" Notes="" XPosition="42" Definition="" YPosition="42" Name="S" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-fe007828-e94f-4a87-9ac5-60cf77ea5ccd" PortMap="" Notes="" XPosition="42" Definition="" YPosition="119" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-cfabb3ca-d201-4335-b6b9-8ee99ccb13d7" ApplyJoinData="" Notes="" Name="PwrGnd" Definition="PwrGnd_TwoPort" YPosition="266" XPosition="357" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-e382ef25-fc94-46f9-a139-e993cacca398" PortMap="id-de7f9aeb-3c80-4bac-a294-0736752d7ffc" Notes="" XPosition="224" Definition="" YPosition="49" Name="VCC" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q6="schematic" xsi:type="q6:Pin" ID="id-ee826a45-62dd-44cd-9265-d97b59277e4c" PortMap="id-ae1b6824-09d3-4f4c-b6ef-6bfa89c84d65" Notes="" XPosition="224" Definition="" YPosition="126" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="" />
+</Component>
